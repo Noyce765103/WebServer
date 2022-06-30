@@ -8,4 +8,7 @@ typedef struct {
     std::string ItemContent;
 }CConfItem, *PTRConfItem;
 
+extern char ** g_os_argv;
+extern int g_environlen;
+extern char *gp_envmem;
 #endif
